@@ -150,7 +150,7 @@ class SQLAlchemyGeneralSQLeResultParse(object):
             return Response(status_code=HTTPStatus.NO_CONTENT)
         response = []
         for i in result:
-            i = dict(i)
+            i = i._mapping
             result__ = copy.deepcopy(i)
             tmp = {}
             for key_, value_ in result__.items():
