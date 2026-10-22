@@ -27,14 +27,14 @@ if __name__ == "__main__":
             "pydantic>=1.8.2",
             "SQLAlchemy>=2.0.0",
             "StrEnum==0.4.7",
-            "starlette==0.14.2",
+            "starlette==1.3.1",
             "aiosqlite==0.17.0",
         ],
         extras_require={
             'dev': [
                 "uvicorn==0.17.0",
                 "greenlet==1.1.2",
-                "anyio==3.5.0"
+                "anyio==4.14.2"
             ],
         },
         python_requires=">=3.7",
